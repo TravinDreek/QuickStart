@@ -2,7 +2,7 @@
 
 [English Doc](./README.md)
 
-在 Windows 中使用一条命令快速打开任意程序.
+在 Windows 中使用一条命令快速打开任意程序
 
 仅需按下 Win+R, 直接输入:
 ```batchfile
