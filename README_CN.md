@@ -15,9 +15,11 @@ open vscode
 ## 开始使用
 ### 注册命令
 第一次使用, 请将 `open.bat` 放置在任意目录(例如`D:\QuickStart\`), 然后在你的环境变量中找到 `Path` 变量, 并将此 bat 文件所在的目录添加进去.
+
 ![注册](https://s1.ax1x.com/2020/08/13/dSkxMT.png)
 
 如果注册成功, 按 Win+R 并输入 `open` 后, 应该有如下提示:
+
 ![提示](https://s1.ax1x.com/2020/08/13/dSA0Fs.png)
 
 ### 添加文件
