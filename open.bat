@@ -6,8 +6,8 @@
 	REM 如果 %1 为空则显示命令帮助, 否则开始执行命令.
 	if "%1" == "" (
 		set Message_Title=信息
-		set Message_Content=用法REM open [代号]
-		set Message_Content_NL=示例REM open qq
+		set Message_Content=用法: open [代号]
+		set Message_Content_NL=示例: open qq
 		goto ShowMessage
 	) else (
 		goto ExecuteCommand
