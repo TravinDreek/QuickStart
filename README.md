@@ -1,7 +1,11 @@
 # QuickStart
-在 Windows 中使用一条命令快速打开任意程序.
 
-仅需按下 Win+R, 直接输入:
+[中文文档](./README_CN.md)
+
+Open any applications by a command on Windows.
+
+You only need to press `Win+R`, then enter:
+
 ```batchfile
 open chrome
 open qq
@@ -9,24 +13,24 @@ open vscode
 ...
 ```
 
-## 开始使用
-### 注册命令
-第一次使用, 请将 `open.bat` 放置在任意目录(例如`D:\QuickStart\`), 然后在你的环境变量中找到 `Path` 变量, 并将此 bat 文件所在的目录添加进去.
-![注册](https://s1.ax1x.com/2020/08/13/dSkxMT.png)
+## To start
+### Register command
+For the first time, please put the `open.bat` in any directory (such as `D:\Quickstart`).Then find out the `Path` variable in the environment variable and add the bat file's directory into it.
+![Register](https://s1.ax1x.com/2020/08/13/dSkxMT.png)
 
-如果注册成功, 按 Win+R 并输入 `open` 后, 应该有如下提示:
-![提示](https://s1.ax1x.com/2020/08/13/dSA0Fs.png)
+If you registered successful, it should show the following tips after you pressed `Win-R` and entered `open`:
+![Tips](https://s1.ax1x.com/2020/08/13/dSA0Fs.png)
 
-### 添加文件
-注册命令之后, 请在 `open.bat` 同级目录下创建名为 `files` 的文件夹, 并将自己程序的文件存放在此文件夹中 (这些文件可以是程序的快捷方式, 也可以是程序本体).
+### Add files
+After you register the command, you should create a directory named `files` in the `open.bat` file's directory.At the same time, you need to put your own application files into the directory (These can be the shortcut or the application itself).
 
-你可以将这些文件重命名成任意名称, 并且, 如果你希望某个文件有多个别称, 你可以在文件名中使用空格分隔它们.
+You can rename the files for any name.At the same time, if you want any file to own more than one name, you can separate them by space.
 
-例如, `files` 目录下有这些文件:
+For example, `files` directory includes these files:
 ```
 qq.lnk
 vsc vscode.lnk
 ```
-要打开第一个文件, 你可以使用 `open qq`.
+You can use `open qq` to open the first file.
 
-要打开第二个文件, 你可以使用 `open vsc`, 也可以使用 `open vscode`.
+If you want to open the second file, you can use `open vsc` or `open vscode` to do.
