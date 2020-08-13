@@ -15,9 +15,11 @@ open vscode
 ## Get Started
 ### Registering the Command
 For the first time, please put the `open.bat` in any directory you want (e.g. `D:\Quickstart`). Then edit the `Path` variable in the environment variables by adding the directory where the bat file is located.
+
 ![Register](https://s1.ax1x.com/2020/08/13/dSkxMT.png)
 
 If registration is successful, press Win+R and type "open", you should get the following message:
+
 ![Message](https://s1.ax1x.com/2020/08/13/dSA0Fs.png)
 
 ### Adding Files
