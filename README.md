@@ -2,10 +2,9 @@
 
 [中文文档](./README_CN.md)
 
-Open any applications by a command on Windows.
+Open any applications by one command on Windows
 
-You only need to press `Win+R`, then enter:
-
+Simply press Win+R and enter:
 ```batchfile
 open chrome
 open qq
@@ -13,24 +12,24 @@ open vscode
 ...
 ```
 
-## To start
-### Register command
-For the first time, please put the `open.bat` in any directory (such as `D:\Quickstart`).Then find out the `Path` variable in the environment variable and add the bat file's directory into it.
+## Get Started
+### Registering the Command
+For the first time, please put the `open.bat` in any directory you want (e.g. `D:\Quickstart`). Then edit the `Path` variable in the environment variables by adding the directory where the bat file is located.
 ![Register](https://s1.ax1x.com/2020/08/13/dSkxMT.png)
 
-If you registered successful, it should show the following tips after you pressed `Win-R` and entered `open`:
-![Tips](https://s1.ax1x.com/2020/08/13/dSA0Fs.png)
+If registration is successful, press Win+R and type "open", you should get the following message:
+![Message](https://s1.ax1x.com/2020/08/13/dSA0Fs.png)
 
-### Add files
-After you register the command, you should create a directory named `files` in the `open.bat` file's directory.At the same time, you need to put your own application files into the directory (These can be the shortcut or the application itself).
+### Adding Files
+After registering the command, create a folder named "files" in the directory where the bat file is located, then put your own files into this folder (these files can be either shortcuts to the application or the application itself).
 
-You can rename the files for any name.At the same time, if you want any file to own more than one name, you can separate them by space.
+You can rename these files to any name you like, and if you want a file to have more aliases, you can separate them with spaces in the filename.
 
 For example, `files` directory includes these files:
 ```
 qq.lnk
 vsc vscode.lnk
 ```
-You can use `open qq` to open the first file.
+To open the first file, you can use `open qq`.
 
-If you want to open the second file, you can use `open vsc` or `open vscode` to do.
+To open the second one, you can use either `open vsc` or `open vscode`.
